@@ -1,14 +1,14 @@
 //Подключаем модули галпа
 const gulp = require('gulp'), 
-   concat = require('gulp-concat'), // concata files
-   autoprefixer = require('gulp-autoprefixer'), //prefixer css
-   cleanCSS = require('gulp-clean-css'), //minify css
-   clean = require('gulp-clean'), //clean files and folders
-   uglify = require('gulp-uglify'), // minify js
-   browserSync = require('browser-sync').create(), //monitoring code
-   sourcemaps = require('gulp-sourcemaps'),
-   sass = require('gulp-sass'), // sass
-   imagemin = require('gulp-imagemin');
+      concat = require('gulp-concat'), // concata files
+      autoprefixer = require('gulp-autoprefixer'), //prefixer css
+      cleanCSS = require('gulp-clean-css'), //minify css
+      clean = require('gulp-clean'), //clean files and folders
+      uglify = require('gulp-uglify'), // minify js
+      browserSync = require('browser-sync').create(), //monitoring code
+      sourcemaps = require('gulp-sourcemaps'),
+      sass = require('gulp-sass'), // sass
+      imagemin = require('gulp-imagemin');
 
 
 //Порядок подключения css файлов
